@@ -8,6 +8,7 @@ pipeline {
         GITCREDENTIAL = 'git_cre'
         ECR = '756266714368.dkr.ecr.ap-northeast-2.amazonaws.com/fish'
         AWSCREDENTIAL = 'aws_cre'
+        FISH_BOT_TOKEN = credentials('FISH_BOT_TOKEN')  // Jenkins에서 가져온 FISH Bot Token
     }
     stages {
         stage('Checkout Github') {
@@ -21,6 +22,20 @@ pipeline {
                 }
                 success {
                     sh 'echo clone success'
+                }
+            }
+        }
+        stage('Update config.yml with FISH_BOT_TOKEN') {
+            steps {
+                // 정확한 경로로 config.yml 수정
+                sh "sed -i 's@\\\${FISH_BOT_TOKEN}@${FISH_BOT_TOKEN}@g' plugins/DiscordSRV/config.yml"
+            }
+            post {
+                failure {
+                    sh 'echo config update failed'
+                }
+                success {
+                    sh 'echo config update success'
                 }
             }
         }
