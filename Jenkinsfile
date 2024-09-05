@@ -41,7 +41,7 @@ pipeline {
         }
         stage('Docker 이미지 빌드') {
             steps {
-                sh "docker build -t ${ECR}:${currentBuild.number} ."   // 현재 빌드 번호를 도커 이미지 태그로 사용
+                sh "docker build -t ${ECR}:22 ."   // 현재 빌드 번호를 도커 이미지 태그로 사용
                 sh "docker build -t ${ECR}:latest ."                   // 최신 태그로 이미지 빌드
             }
             post {
@@ -56,18 +56,18 @@ pipeline {
         stage('ECR 에 이미지 푸시') {
             steps {
                 withDockerRegistry(credentialsId: 'ecr:ap-northeast-2:aws_cre', url: 'https://756266714368.dkr.ecr.ap-northeast-2.amazonaws.com/fish') {
-                    sh "docker push ${ECR}:${currentBuild.number}"
+                    sh "docker push ${ECR}:22"
                     sh "docker push ${ECR}:latest"
                 }
             }
             post {
                 failure {
-                    sh "docker image rm -f  ${ECR}:${currentBuild.number}"
+                    sh "docker image rm -f  ${ECR}:22"
                     sh "docker image rm -f  ${ECR}:latest"
                     sh 'echo push failed'
                 }
                 success {
-                    sh "docker image rm -f  ${ECR}:${currentBuild.number}"
+                    sh "docker image rm -f  ${ECR}:22"
                     sh "docker image rm -f  ${ECR}:latest"
                     sh 'echo push success'
                 }
@@ -78,11 +78,11 @@ pipeline {
                     git credentialsId: GITCREDENTIAL, url: GITSSHADD, branch: 'main'
                     sh "git config --global user.email ${GITMAIL}"
                     sh "git config --global user.name ${GITNAME}"
-                    sh "sed -i 's@${ECR}:.*@${ECR}:${currentBuild.number}@g' fish.yml"
+                    sh "sed -i 's@${ECR}:.*@${ECR}:22@g' fish.yml"
 
                     sh 'git add .'
                     sh 'git branch -M main'
-                    sh "git commit -m 'fixed tag ${currentBuild.number}'"
+                    sh "git commit -m 'fixed tag 22'"
                     sh 'git remote remove origin'
                     sh "git remote add origin ${GITSSHADD}"
                     sh 'git push origin main'
