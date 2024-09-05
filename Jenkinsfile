@@ -21,7 +21,7 @@ pipeline {
                     sh 'echo clone failed'
                 }
                 success {
-                    sh 'echo clone success'
+                    sh 'echo clone success naaaice'
                 }
             }
         }
