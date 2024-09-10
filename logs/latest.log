@@ -1,68 +1,114 @@
-[03:00:29] [ServerMain/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[03:00:30] [ServerMain/WARN]: Missing data pack fabric
-[03:00:30] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[03:00:31] [ServerMain/INFO]: Loaded 1174 recipes
-[03:00:31] [ServerMain/INFO]: Loaded 1271 advancements
-[03:00:32] [Server thread/INFO]: Starting minecraft server version 1.20.2
-[03:00:32] [Server thread/WARN]: ****************************
-[03:00:32] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
-[03:00:32] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
-[03:00:32] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
-[03:00:32] [Server thread/WARN]: ****************************
-[03:00:32] [Server thread/INFO]: Loading properties
-[03:00:32] [Server thread/INFO]: This server is running Paper version git-Paper-318 (MC: 1.20.2) (Implementing API version 1.20.2-R0.1-SNAPSHOT) (Git: 9271ee7)
-[03:00:32] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[03:00:32] [Server thread/INFO]: Using 4 threads for Netty based IO
-[03:00:32] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[10:16:15] [ServerMain/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[10:16:15] [ServerMain/WARN]: Missing data pack fabric
+[10:16:15] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[10:16:19] [ServerMain/INFO]: Loaded 1174 recipes
+[10:16:19] [ServerMain/INFO]: Loaded 1271 advancements
+[10:16:19] [Server thread/INFO]: Starting minecraft server version 1.20.2
+[10:16:19] [Server thread/INFO]: Loading properties
+[10:16:20] [Server thread/INFO]: This server is running Paper version git-Paper-318 (MC: 1.20.2) (Implementing API version 1.20.2-R0.1-SNAPSHOT) (Git: 9271ee7)
+[10:16:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:16:20] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:16:21] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[03:00:32] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[03:00:33] [Server thread/INFO]: Default game type: SURVIVAL
-[03:00:33] [Server thread/INFO]: Generating keypair
-[03:00:33] [Server thread/INFO]: Starting Minecraft server on *:30002
-[03:00:33] [Server thread/INFO]: Using epoll channel type
-[03:00:33] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[03:00:33] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[03:00:33] [Server thread/INFO]: [HuskSync] Loading server plugin HuskSync v3.6.8-2df9fd8
-[03:00:33] [Server thread/INFO]: [HuskSync] Initializing plugin config & locale files...
-[03:00:33] [Server thread/INFO]: [HuskSync] Successfully initialized plugin config & locale files
-[03:00:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[03:00:33] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:00:33] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:00:33] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[03:00:33] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
-[03:00:33] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:00:33] [Server thread/INFO]: Preparing level "world"
-[03:00:33] [Server thread/INFO]: ---- Migration of old nether folder required ----
-[03:00:33] [Server thread/INFO]: Unfortunately due to the way that Minecraft implemented multiworld support in 1.6, Bukkit requires that you move your nether folder to a new location in order to operate correctly.
-[03:00:33] [Server thread/INFO]: We will move this folder for you, but it will mean that you need to move it back should you wish to stop using Bukkit in the future.
-[03:00:33] [Server thread/INFO]: Attempting to move world/DIM-1 to world_nether/DIM-1...
-[03:00:33] [Server thread/INFO]: Success! To restore nether in the future, simply move world_nether/DIM-1 to world/DIM-1
-[03:00:34] [Server thread/INFO]: ---- Migration of old nether folder complete ----
-[03:00:34] [Server thread/INFO]: ---- Migration of old the_end folder required ----
-[03:00:34] [Server thread/INFO]: Unfortunately due to the way that Minecraft implemented multiworld support in 1.6, Bukkit requires that you move your the_end folder to a new location in order to operate correctly.
-[03:00:34] [Server thread/INFO]: We will move this folder for you, but it will mean that you need to move it back should you wish to stop using Bukkit in the future.
-[03:00:34] [Server thread/INFO]: Attempting to move world/DIM1 to world_the_end/DIM1...
-[03:00:34] [Server thread/INFO]: Success! To restore the_end in the future, simply move world_the_end/DIM1 to world/DIM1
-[03:00:34] [Server thread/INFO]: ---- Migration of old the_end folder complete ----
-[03:00:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[03:00:34] [Server thread/INFO]: Time elapsed: 401 ms
-[03:00:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[03:00:34] [Server thread/INFO]: Time elapsed: 41 ms
-[03:00:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[03:00:34] [Server thread/INFO]: Time elapsed: 45 ms
-[03:00:34] [Server thread/INFO]: [HuskSync] Enabling HuskSync v3.6.8-2df9fd8
-[03:00:35] [Server thread/INFO]: [HuskSync] Initializing commands...
-[03:00:35] [Server thread/INFO]: [HuskSync] Successfully initialized commands
-[03:00:35] [Server thread/INFO]: [HuskSync] Initializing data adapter...
-[03:00:35] [Server thread/INFO]: [HuskSync] Successfully initialized data adapter
-[03:00:35] [Server thread/INFO]: [HuskSync] Initializing data serializers...
-[03:00:35] [Server thread/INFO]: [HuskSync] Successfully initialized data serializers
-[03:00:35] [Server thread/INFO]: [HuskSync] Initializing data migrators/converters...
-[03:00:35] [Server thread/INFO]: [HuskSync] Successfully initialized data migrators/converters
-[03:00:35] [Server thread/INFO]: [HuskSync] Initializing MySQL database connection...
-[03:00:35] [Server thread/INFO]: [net.william278.husksync.libraries.hikari.HikariDataSource] HuskSyncHikariPool - Starting...
-[03:00:55] [Server thread/ERROR]: Error occurred while enabling HuskSync v3.6.8-2df9fd8 (Is it up to date?)
+[10:16:21] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[10:16:21] [Server thread/INFO]: Default game type: SURVIVAL
+[10:16:21] [Server thread/INFO]: Generating keypair
+[10:16:21] [Server thread/INFO]: Starting Minecraft server on *:30002
+[10:16:21] [Server thread/INFO]: Using default channel type
+[10:16:22] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[10:16:22] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[10:16:22] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loading 1 libraries... please wait
+[10:16:23] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/redis/clients/jedis/4.3.1/jedis-4.3.1.pom
+[10:16:23] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-pool2/2.11.1/commons-pool2-2.11.1.pom
+[10:16:23] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/52/commons-parent-52.pom
+[10:16:23] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/apache/apache/23/apache-23.pom
+[10:16:23] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.8.0-M1/junit-bom-5.8.0-M1.pom
+[10:16:24] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/json/json/20220320/json-20220320.pom
+[10:16:24] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.9/gson-2.8.9.pom
+[10:16:24] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.9/gson-parent-2.8.9.pom
+[10:16:24] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar
+[10:16:24] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/redis/clients/jedis/4.3.1/jedis-4.3.1.jar
+[10:16:24] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/json/json/20220320/json-20220320.jar
+[10:16:24] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-pool2/2.11.1/commons-pool2-2.11.1.jar
+[10:16:24] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library C:\velocity\hama-fish\libraries\redis\clients\jedis\4.3.1\jedis-4.3.1.jar
+[10:16:24] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library C:\velocity\hama-fish\libraries\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar
+[10:16:24] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library C:\velocity\hama-fish\libraries\org\apache\commons\commons-pool2\2.11.1\commons-pool2-2.11.1.jar
+[10:16:24] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library C:\velocity\hama-fish\libraries\org\json\json\20220320\json-20220320.jar
+[10:16:24] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library C:\velocity\hama-fish\libraries\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar
+[10:16:25] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[10:16:25] [Server thread/INFO]: [XConomy] Loading server plugin XConomy v2.26.3
+[10:16:25] [Server thread/INFO]: [Logger] Loading server plugin Logger v1.8.0.15
+[10:16:25] [Server thread/INFO]: [HuskSync] Loading server plugin HuskSync v3.6.8-2df9fd8
+[10:16:25] [Server thread/INFO]: [HuskSync] Initializing plugin config & locale files...
+[10:16:25] [Server thread/INFO]: [HuskSync] Successfully initialized plugin config & locale files
+[10:16:25] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.28.0
+[10:16:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:16:25] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[10:16:25] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[10:16:25] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[10:16:25] [Server thread/INFO]: [XConomy] Enabling XConomy v2.26.3
+[10:16:25] [Server thread/INFO]: [XConomy] UUID-Mode: Default
+[10:16:25] [Server thread/INFO]: [XConomy] Language: ENGLISH
+[10:16:25] [Server thread/INFO]: [XConomy] The new language file has been created
+[10:16:26] [Server thread/INFO]: [XConomy] Saving method - SQLite
+[10:16:26] [Server thread/INFO]: [XConomy] SQLite successfully connected
+[10:16:26] [Server thread/INFO]: [XConomy] XConomy successfully enabled
+[10:16:27] [Server thread/INFO]: [XConomy] ===== YiC =====
+[10:16:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:16:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:16:27] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[10:16:27] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
+[10:16:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:16:27] [Server thread/INFO]: Preparing level "world"
+[10:16:27] [Server thread/INFO]: ---- Migration of old nether folder required ----
+[10:16:27] [Server thread/INFO]: Unfortunately due to the way that Minecraft implemented multiworld support in 1.6, Bukkit requires that you move your nether folder to a new location in order to operate correctly.
+[10:16:27] [Server thread/INFO]: We will move this folder for you, but it will mean that you need to move it back should you wish to stop using Bukkit in the future.
+[10:16:27] [Server thread/INFO]: Attempting to move world\DIM-1 to world_nether\DIM-1...
+[10:16:27] [Server thread/INFO]: Success! To restore nether in the future, simply move world_nether\DIM-1 to world\DIM-1
+[10:16:27] [Folia Async Scheduler Thread #0/INFO]: [XConomy] Is the latest version
+[10:16:28] [Server thread/INFO]: ---- Migration of old nether folder complete ----
+[10:16:28] [Server thread/INFO]: ---- Migration of old the_end folder required ----
+[10:16:28] [Server thread/INFO]: Unfortunately due to the way that Minecraft implemented multiworld support in 1.6, Bukkit requires that you move your the_end folder to a new location in order to operate correctly.
+[10:16:28] [Server thread/INFO]: We will move this folder for you, but it will mean that you need to move it back should you wish to stop using Bukkit in the future.
+[10:16:28] [Server thread/INFO]: Attempting to move world\DIM1 to world_the_end\DIM1...
+[10:16:28] [Server thread/INFO]: Success! To restore the_end in the future, simply move world_the_end\DIM1 to world\DIM1
+[10:16:28] [Server thread/INFO]: ---- Migration of old the_end folder complete ----
+[10:16:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:16:29] [Server thread/INFO]: Time elapsed: 524 ms
+[10:16:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[10:16:29] [Server thread/INFO]: Time elapsed: 68 ms
+[10:16:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[10:16:29] [Server thread/INFO]: Time elapsed: 50 ms
+[10:16:29] [Server thread/INFO]: [Logger] Enabling Logger v1.8.0.15
+[10:16:29] [Server thread/INFO]: [Logger] 
+|
+|     __                               
+|    / /   ____  ____ _____ ____  _____
+|   / /   / __ \/ __ `/ __ `/ _ \/ ___/
+|  / /___/ /_/ / /_/ / /_/ /  __/ /    
+| /_____/\____/\__, /\__, /\___/_/     
+|             /____//____/     1.8.0.15 [ Bukkit Version ]        
+|
+| This is a DEV Build, please report any issues!
+|
+| Discord https://discord.gg/MfR5mcpVfX
+|
+[10:16:30] [Server thread/INFO]: [Logger] Vault Plugin Detected!
+[10:16:30] [Server thread/INFO]: [Logger] ¡×6Thanks to everyone's contributions that helped made this project possible!
+[10:16:30] [Server thread/INFO]: [Logger] Plugin Enabled!
+[10:16:30] [Server thread/INFO]: [HuskSync] Enabling HuskSync v3.6.8-2df9fd8
+[10:16:32] [Server thread/INFO]: [HuskSync] Initializing commands...
+[10:16:32] [Server thread/INFO]: [HuskSync] Successfully initialized commands
+[10:16:32] [Server thread/INFO]: [HuskSync] Initializing data adapter...
+[10:16:32] [Server thread/INFO]: [HuskSync] Successfully initialized data adapter
+[10:16:32] [Server thread/INFO]: [HuskSync] Initializing data serializers...
+[10:16:32] [Server thread/INFO]: [HuskSync] Successfully initialized data serializers
+[10:16:32] [Server thread/INFO]: [HuskSync] Initializing data migrators/converters...
+[10:16:32] [Server thread/INFO]: [HuskSync] Successfully initialized data migrators/converters
+[10:16:32] [Server thread/INFO]: [HuskSync] Initializing MySQL database connection...
+[10:16:32] [Server thread/INFO]: [net.william278.husksync.libraries.hikari.HikariDataSource] HuskSyncHikariPool - Starting...
+[10:16:52] [Server thread/ERROR]: Error occurred while enabling HuskSync v3.6.8-2df9fd8 (Is it up to date?)
 net.william278.husksync.HuskSync$FailedToLoadException: HuskSync has failed to load! The plugin will not be enabled and no data will be synchronized.
 Please make sure the plugin has been setup correctly (https://william278.net/docs/husksync/setup):
 
@@ -85,7 +131,7 @@ Caused by: Failed to initialize MySQL database connection
 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:308) ~[paper-1.20.2.jar:git-Paper-318]
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1086) ~[paper-1.20.2.jar:git-Paper-318]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315) ~[paper-1.20.2.jar:git-Paper-318]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+	at java.lang.Thread.run(Thread.java:842) ~[?:?]
 Caused by: java.lang.RuntimeException: java.lang.IllegalStateException: Failed to establish a connection to the MySQL database. Please check the supplied database credentials in the config file
 	at net.william278.husksync.libraries.desertwell.util.ThrowingConsumer.accept(ThrowingConsumer.java:45) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
 	at net.william278.husksync.HuskSync.initialize(HuskSync.java:153) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
@@ -123,8 +169,8 @@ Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications lin
 	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
 	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
-	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62) ~[mysql-connector-j-8.1.0.jar:8.1.0]
 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-j-8.1.0.jar:8.1.0]
 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150) ~[mysql-connector-j-8.1.0.jar:8.1.0]
@@ -173,8 +219,8 @@ Caused by: java.net.SocketTimeoutException: Connect timed out
 	at net.william278.husksync.libraries.desertwell.util.ThrowingConsumer.accept(ThrowingConsumer.java:43) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
 	at net.william278.husksync.HuskSync.initialize(HuskSync.java:153) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
 	... 13 more
-[03:00:55] [Server thread/INFO]: [HuskSync] Disabling HuskSync v3.6.8-2df9fd8
-[03:00:55] [Server thread/ERROR]: Error occurred (in the plugin loader) while disabling HuskSync v3.6.8-2df9fd8 (Is it up to date?)
+[10:16:52] [Server thread/INFO]: [HuskSync] Disabling HuskSync v3.6.8-2df9fd8
+[10:16:52] [Server thread/ERROR]: Error occurred (in the plugin loader) while disabling HuskSync v3.6.8-2df9fd8 (Is it up to date?)
 java.lang.NullPointerException: Cannot invoke "net.william278.husksync.redis.RedisManager.terminate()" because the return value of "net.william278.husksync.HuskSync.getRedisManager()" is null
 	at net.william278.husksync.listener.EventListener.handlePluginDisable(EventListener.java:125) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
 	at net.william278.husksync.listener.BukkitEventListener.handlePluginDisable(BukkitEventListener.java:58) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
@@ -193,8 +239,10 @@ java.lang.NullPointerException: Cannot invoke "net.william278.husksync.redis.Red
 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:308) ~[paper-1.20.2.jar:git-Paper-318]
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1086) ~[paper-1.20.2.jar:git-Paper-318]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315) ~[paper-1.20.2.jar:git-Paper-318]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[03:00:56] [Server thread/ERROR]: Couldn't load server icon
+	at java.lang.Thread.run(Thread.java:842) ~[?:?]
+[10:16:52] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.28.0
+[10:16:53] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] An invalid length bot token (17) has been set in the config; a valid bot token is required to connect to Discord.
+[10:16:53] [Server thread/ERROR]: Couldn't load server icon
 java.lang.IllegalStateException: Must be 64 pixels wide
 	at com.google.common.base.Preconditions.checkState(Preconditions.java:512) ~[guava-32.1.2-jre.jar:?]
 	at net.minecraft.server.MinecraftServer.lambda$loadStatusIcon$12(MinecraftServer.java:1340) ~[paper-1.20.2.jar:git-Paper-318]
@@ -202,33 +250,41 @@ java.lang.IllegalStateException: Must be 64 pixels wide
 	at net.minecraft.server.MinecraftServer.loadStatusIcon(MinecraftServer.java:1336) ~[paper-1.20.2.jar:git-Paper-318]
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1091) ~[paper-1.20.2.jar:git-Paper-318]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315) ~[paper-1.20.2.jar:git-Paper-318]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[03:00:56] [Server thread/INFO]: Running delayed init tasks
-[03:00:56] [Server thread/INFO]: Done (24.138s)! For help, type "help"
-[03:00:56] [Server thread/INFO]: Timings Reset
-[03:01:07] [Server thread/INFO]: Stopping the server
-[03:01:07] [Server thread/INFO]: Stopping server
-[03:01:07] [Server thread/INFO]: Saving players
-[03:01:07] [Server thread/INFO]: Saving worlds
-[03:01:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[03:01:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[03:01:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[03:01:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[03:01:08] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world' in 1.02s
-[03:01:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[03:01:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[03:01:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[03:01:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[03:01:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[03:01:09] [Server thread/INFO]: [ChunkHolderManager] Saved 2025 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.83s
-[03:01:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03:01:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[03:01:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[03:01:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[03:01:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[03:01:09] [Server thread/INFO]: [ChunkHolderManager] Saved 2025 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.50s
-[03:01:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[03:01:09] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[03:01:09] [Server thread/INFO]: Flushing Chunk IO
-[03:01:09] [Server thread/INFO]: Closing Thread Pool
-[03:01:09] [Server thread/INFO]: Closing Server
+	at java.lang.Thread.run(Thread.java:842) ~[?:?]
+[10:16:53] [Server thread/INFO]: Running delayed init tasks
+[10:16:53] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.28.0
+[10:16:53] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] Checking for Updates ... 
+[10:16:53] [Server thread/INFO]: Done (33.387s)! For help, type "help"
+[10:16:53] [Server thread/INFO]: Timings Reset
+[10:16:53] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] No new version available
+[10:16:53] [pool-15-thread-1/WARN]: [DiscordSRV] Update check failed: zip file closed
+[10:19:05] [Server thread/INFO]: Stopping server
+[10:19:05] [Server thread/INFO]: [Logger] Disabling Logger v1.8.0.15
+[10:19:05] [Server thread/INFO]: [Logger] Plugin Disabled!
+[10:19:05] [Server thread/INFO]: [XConomy] Disabling XConomy v2.26.3
+[10:19:05] [Server thread/INFO]: [XConomy] XConomy successfully disabled
+[10:19:05] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[10:19:05] [Server thread/INFO]: Saving players
+[10:19:05] [Server thread/INFO]: Saving worlds
+[10:19:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10:19:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[10:19:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[10:19:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[10:19:07] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world' in 2.25s
+[10:19:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:19:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[10:19:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[10:19:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[10:19:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[10:19:10] [Server thread/INFO]: [ChunkHolderManager] Saved 2025 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 2.56s
+[10:19:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:19:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[10:19:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[10:19:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[10:19:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[10:19:11] [Server thread/INFO]: [ChunkHolderManager] Saved 2025 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 1.12s
+[10:19:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:19:11] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10:19:11] [Server thread/INFO]: Flushing Chunk IO
+[10:19:11] [Server thread/INFO]: Closing Thread Pool
+[10:19:11] [Server thread/INFO]: Closing Server
