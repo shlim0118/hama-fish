@@ -92,7 +92,7 @@ pipeline {
                     sh 'echo failed'
                 }
                 success {
-                    sh 'echo naice hanseok3'
+                    sh 'echo naice hanseok4'
                 }
             }
         }
