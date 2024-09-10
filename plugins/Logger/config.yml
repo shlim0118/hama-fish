@@ -113,13 +113,13 @@ Spy-Features:
     Enable: false
     Message: '&8[&bLogger &8&l| &eAnvil-Spy&8] &7%player% >> %renamed%'
 Database:
-  Enable: false
+  Enable: true
   Type: MySQL
-  Host: log-xconomy.cjcakwwqi0jh.ap-northeast-2.rds.amazonaws.com
+  Host: database-1.cjcakwwqi0jh.ap-northeast-2.rds.amazonaws.com
   Port: 3306
   Username: admin
   Password: test1234
-  Database: fishlog
+  Database: fish_log
   Data-Deletion: 1
 SQLite:
   Enable: false
